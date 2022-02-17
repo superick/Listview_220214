@@ -32,7 +32,7 @@ class StudentAdapter(
         val nameTxt = row.findViewById<TextView>(R.id.nameTxt)
         val birthYear = row.findViewById<TextView>(R.id.birthYear)
 
-        nameTxt.text = "테스트"
+        nameTxt.text = studentData.name
 
         birthYear.text = "(${studentData.birthYear}년생)"
 
